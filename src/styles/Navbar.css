@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0px 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    z-index: 1000;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    padding-right: 24px;
+    transition: all 150ms;
+}
+
+.nav:hover {
+    color: #d0181f;
+}
+
+.nav-buttons ul {
+    display: flex;
+}
+
+.left-side img {
+    height: 25px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+.right-side img {
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}

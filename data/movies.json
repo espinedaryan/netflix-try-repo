@@ -1,0 +1,226 @@
+{
+    "popular-movies": [
+      {
+        "image": "thumbnails/elemental.jpg",
+        "title": "Elemental",
+        "match": "69% Match",
+        "forAge": "10+",
+        "length": "1h 57m",
+        "genre": "Animation • Comedy • Family • Fantasy • Romance",
+        "id": 1
+      },
+      {
+        "image": "thumbnails/hos.jpg",
+        "title": "Heart of Stone",
+        "match": "45% Match",
+        "forAge": "13+",
+        "length": "1h 36m",
+        "genre": "Action • Thriller",
+        "id": 2
+      },
+      {
+        "image": "thumbnails/spiderman.jpg",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "match": "75% Match",
+        "forAge": "9+",
+        "length": "2h 13m",
+        "genre": "Action • Adventure • Animation",
+        "id": 3
+      },
+      {
+        "image": "thumbnails/transformers.jpg",
+        "title": "Transformers: Rise of the Beasts",
+        "match": "49% Match",
+        "forAge": "9+",
+        "length": "2h 21m",
+        "genre": "Action • Adventure • Science Fiction",
+        "id": 4
+      },
+      {
+        "image": "thumbnails/barbie.jpg",
+        "title": "Barbie",
+        "match": "56% Match",
+        "forAge": "10+",
+        "length": "2h 32m",
+        "genre": "Adventure • Comedy • Fantasy",
+        "id": 5
+      },
+      {
+        "image": "thumbnails/flash.jpg",
+        "title": "The Flash",
+        "match": "64% Match",
+        "forAge": "9+",
+        "length": "1h 49m",
+        "genre": "Action • Adventure • Science Fiction",
+        "id": 6
+      }
+    ],
+    "top-rated-movies": [
+      {
+        "image": "thumbnails/oppenheimer.jpg",
+        "title": "Oppenheimer: Destroyer of Worlds",
+        "match": "95% Match",
+        "forAge": "16+",
+        "length": "2h 37m",
+        "genre": "Drama • History",
+        "id": 7
+      },
+      {
+        "image": "thumbnails/spirited-away.jpg",
+        "title": "Spirited Away",
+        "match": "86% Match",
+        "forAge": "10+",
+        "length": "1h 25m",
+        "genre": "Animation • Family • Fantasy",
+        "id": 8
+      },
+      {
+        "image": "thumbnails/your-name.jpg",
+        "title": "Your Name",
+        "match": "91% Match",
+        "forAge": "9+",
+        "length": "2h 46m",
+        "genre": "Animation • Drama • Romance",
+        "id": 9
+      },
+      {
+        "image": "thumbnails/john-wick.jpg",
+        "title": "John Wick: Chapter 4",
+        "match": "87% Match",
+        "forAge": "11+",
+        "length": "2h 51m",
+        "genre": "Action • Crime • Thriller",
+        "id": 10
+      },
+      {
+        "image": "thumbnails/lady-bug-and-cat-noir.jpg",
+        "title": "Miraculous: Ladybug & Cat Noir, The Movie",
+        "match": "99% Match",
+        "forAge": "9+",
+        "length": "1h 12m",
+        "genre": "Action • Animation • Family • Fantasy • Romance",
+        "id": 11
+      },
+      {
+        "image": "thumbnails/barbie.jpg",
+        "title": "Barbie",
+        "match": "56% Match",
+        "forAge": "10+",
+        "length": "2h 32m",
+        "genre": "Adventure • Comedy • Fantasy",
+        "id": 5
+      }
+    ],
+    "now-playing-movies": [
+      {
+        "image": "thumbnails/lady-bug-and-cat-noir.jpg",
+        "title": "Miraculous: Ladybug & Cat Noir, The Movie",
+        "match": "99% Match",
+        "forAge": "9+",
+        "length": "1h 12m",
+        "genre": "Action • Animation • Family • Fantasy • Romance",
+        "id": 11
+      },
+      {
+        "image": "thumbnails/oppenheimer.jpg",
+        "title": "Oppenheimer: Destroyer of Worlds",
+        "match": "95% Match",
+        "forAge": "16+",
+        "length": "2h 37m",
+        "genre": "Drama • History",
+        "id": 7
+      },
+      {
+        "image": "thumbnails/barbie.jpg",
+        "title": "Barbie",
+        "match": "56% Match",
+        "forAge": "10+",
+        "length": "2h 32m",
+        "genre": "Adventure • Comedy • Fantasy",
+        "id": 5
+      },
+      {
+        "image": "thumbnails/john-wick.jpg",
+        "title": "John Wick: Chapter 4",
+        "match": "87% Match",
+        "forAge": "11+",
+        "length": "2h 51m",
+        "genre": "Action • Crime • Thriller",
+        "id": 10
+      },
+      {
+        "image": "thumbnails/your-name.jpg",
+        "title": "Your Name",
+        "match": "91% Match",
+        "forAge": "9+",
+        "length": "2h 46m",
+        "genre": "Animation • Drama • Romance",
+        "id": 9
+      },
+      {
+        "image": "thumbnails/elemental.jpg",
+        "title": "Elemental",
+        "match": "69% Match",
+        "forAge": "10+",
+        "length": "1h 57m",
+        "genre": "Animation • Comedy • Family • Fantasy • Romance",
+        "id": 1
+      }
+    ],
+    "upcoming-movies": [
+      {
+        "image": "thumbnails/barbie.jpg",
+        "title": "Barbie",
+        "match": "56% Match",
+        "forAge": "10+",
+        "length": "2h 32m",
+        "genre": "Adventure • Comedy • Fantasy",
+        "id": 5
+      },
+      {
+        "image": "thumbnails/lady-bug-and-cat-noir.jpg",
+        "title": "Miraculous: Ladybug & Cat Noir, The Movie",
+        "match": "99% Match",
+        "forAge": "9+",
+        "length": "1h 12m",
+        "genre": "Action • Animation • Family • Fantasy • Romance",
+        "id": 11
+      },
+      {
+        "image": "thumbnails/mavka.jpg",
+        "title": "Mavka: The Forest Song",
+        "match": "82% Match",
+        "forAge": "9+",
+        "length": "1h 59m",
+        "genre": "Adventure • Animation • Family • Fantasy",
+        "id": 12
+      },
+      {
+        "image": "thumbnails/blue-beetle.jpg",
+        "title": "Blue Beetle",
+        "match": "87% Match",
+        "forAge": "11+",
+        "length": "2h 13m",
+        "genre": "Action • Adventure • Science Fiction",
+        "id": 13
+      },
+      {
+        "image": "thumbnails/john-wick.jpg",
+        "title": "John Wick: Chapter 4",
+        "match": "87% Match",
+        "forAge": "11+",
+        "length": "2h 51m",
+        "genre": "Action • Crime • Thriller",
+        "id": 10
+      },
+      {
+        "image": "thumbnails/super-mario.jpg",
+        "title": "The Super Mario Bros. Movie",
+        "match": "83% Match",
+        "forAge": "8+",
+        "length": "2h 9m",
+        "genre": "Adventure • Animation • Comedy • Family • Fantasy",
+        "id": 14
+      }
+    ]
+  }

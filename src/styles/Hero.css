@@ -1,0 +1,119 @@
+.section {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 46.1%;
+  }
+  
+.video-container video {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+  
+.content {
+    position: absolute;
+    z-index: 1; /* Ensure content is above the video */
+    top: calc(20% + 67px);
+    bottom: 20%;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.content div {
+    display: flex;
+    padding: 20px 0px;
+    font-size: 3.6rem;
+}
+
+.content p {
+    word-wrap: break-word;
+    width: 600px;
+    font-size: 1.5rem;
+}
+
+.play-button {
+    border-radius: 5px;
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 10px 40px;
+    margin-right: 10px;
+    border: none;
+    transition: all 100ms;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.more-info-button {
+    border-radius: 5px;
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+    border: none;
+    font-size: 26px;
+    padding: 10px 40px;
+    transition: all 100ms;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.play-button:active, .more-info-button:active {
+    opacity: 0.8;
+}
+
+.category {
+    position: relative;
+    padding: 0px 0px 0px 60px;
+    bottom: 100px;
+}
+
+.category h2 {
+    padding: 1rem 0;
+}
+
+.movies-tab {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(290px, auto));
+    gap: 10px;
+}
+
+@media (max-width: 960px) {
+    .content div {
+        font-size: 2.6rem;
+    }
+    
+    .content p {
+        word-wrap: break-word;
+        width: 450px;
+        font-size: 1rem;
+    }
+    
+    .category {
+        bottom: 50px;
+        font-size: 0.85rem;
+    }
+}
+
+.try {
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 100px;
+    background-color: transparent;
+    right: 4%;
+    bottom: 10%;
+    border: 5px solid white;
+}

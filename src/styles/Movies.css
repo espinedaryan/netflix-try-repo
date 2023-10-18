@@ -1,0 +1,158 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie:hover .movie-details {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.movie-details {
+    background-color: #202020;
+    position: absolute;
+    height: 330px;
+    width: 110%;
+    border-radius: 5px;
+    z-index: 1;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all 300ms;
+}
+
+.movie-details .thumbnail-container {
+    position: relative;
+}
+
+.movie-details .thumbnail-container img {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.thumbnail-container button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    height: 38px;
+    width: 38px;
+    border: 2px solid #31363c;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 5%;
+    right: 2.6%;
+}
+
+.thumbnail-container button img {
+    border-radius: 100%;
+    background-color: transparent;
+    height: 85%;
+    width: 85%;
+    padding: 7px 7px 7px calc(7px + 3px);
+}
+
+.movie-details2 {
+    
+}
+
+.movie-details2 .buttons {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-details2 .left-buttons {
+    display: flex;
+    column-gap: 5px;
+}
+
+.movie-details2 button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    height: 38px;
+    width: 38px;
+    border: 2px solid #31363c;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-details2 button img {
+    border-radius: 100%;
+    background-color: white;
+    height: 85%;
+    width: 85%;
+    padding: 2px 2px 2px calc(2px + 3px);
+}
+
+.movie-details2 button .like-icon {
+    border-radius: 100%;
+    background-color: transparent;
+    height: 85%;
+    width: 85%;
+    padding: 5px 5px 5px 5px;
+}
+
+.movie-details2 button .see-more {
+    border-radius: 100%;
+    background-color: transparent;
+    height: 85%;
+    width: 85%;
+    padding: 5px 5px 5px 5px;
+}
+
+.second-row {
+    display: flex;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.match {
+    color: rgb(71, 149, 71);
+    font-weight: 600;
+}
+
+.for-age {
+    font-size: 11px;
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+
+.length {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.hd {
+    font-size: 11px;
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+
+.genre {
+    padding: 10px;
+    line-height: 21px;
+}
